@@ -4,7 +4,7 @@ automobiles.push('airplane','skateboard');
 
 automobiles.unshift('helicopter','bike');
 
-let automobilesCopy= automobiles;
+let automobilesCopy= `${automobiles}`;
 
 automobiles.pop();
 
@@ -13,6 +13,7 @@ automobiles.shift();
 document.getElementById("result").innerHTML = automobiles;
 
  
+
 
 
 
